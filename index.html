@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>英文法まとめノート</title>
+<meta name="description" content="5文型・品詞・名詞/形容詞/副詞の働きをする英文法・動詞・分詞・関係代名詞を1ページで整理した英文法のまとめ。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">文型・品詞・英文法事項</p>
+    <h1>英文法まとめノート</h1>
+    <p class="lead">英語の基礎を「文型」「品詞」「文法事項の働き」の3つの軸で整理します。</p>
+    <div class="legend" aria-label="色の意味">
+      <span class="tag S">S 主語</span><span class="tag V">V 動詞</span><span class="tag O">O 目的語</span><span class="tag C">C 補語</span><span class="tag M">M 修飾語</span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <div class="tabs-inner">
+    <a href="#bunkei">5文型</a>
+    <a href="#hinshi">品詞</a>
+    <a href="#meishi">名詞の働き</a>
+    <a href="#fukushi">副詞の働き</a>
+    <a href="#keiyoshi">形容詞の働き</a>
+    <a href="#doushi">動詞</a>
+    <a href="#bunshi">分詞</a>
+    <a href="#kankei">関係代名詞</a>
+    <a href="#matome">総まとめ</a>
+  </div>
+</nav>
+
+<div class="toolbar wrap">
+  <label class="switch"><input type="checkbox" id="hideJa"> 日本語訳を隠す（タップで表示）</label>
+</div>
+
+<main class="wrap">
+
+<!-- ========== 5文型 ========== -->
+<section id="bunkei">
+  <h2><span class="num">01</span>英語の5文型</h2>
+  <div class="card roles">
+    <div><span class="tag S">S</span>主語<small>〜は・〜が</small></div>
+    <div><span class="tag V">V</span>動詞<small>〜する・〜である</small></div>
+    <div><span class="tag O">O</span>目的語<small>〜を・〜に</small></div>
+    <div><span class="tag C">C</span>補語<small>名詞・形容詞</small></div>
+  </div>
+
+  <div class="grid">
+    <article class="card">
+      <h3>第1文型 <code>S V</code></h3>
+      <p class="mean">S は V する</p>
+      <p class="ex"><span class="en"><b class="S">I</b> <b class="V">swim</b>.</span><span class="ja">私は泳ぐ。</span></p>
+      <p class="ex"><span class="en"><b class="S">The baby</b> <b class="V">cried</b>.</span><span class="ja">赤ちゃんが泣いた。</span></p>
+    </article>
+    <article class="card">
+      <h3>第2文型 <code>S V C</code></h3>
+      <p class="mean">S は C である（<strong>S = C</strong>）</p>
+      <p class="ex"><span class="en"><b class="S">She</b> <b class="V">is</b> <b class="C">sleepy</b>.</span><span class="ja">彼女は眠い。</span></p>
+      <p class="ex"><span class="en"><b class="S">My father</b> <b class="V">is</b> <b class="C">a doctor</b>.</span><span class="ja">父は医者だ。</span></p>
+    </article>
+    <article class="card">
+      <h3>第3文型 <code>S V O</code></h3>
+      <p class="mean">S は O を V する</p>
+      <p class="ex"><span class="en"><b class="S">We</b> <b class="V">play</b> <b class="O">tennis</b>.</span><span class="ja">私たちはテニスをする。</span></p>
+      <p class="ex"><span class="en"><b class="S">I</b> <b class="V">love</b> <b class="O">cats</b>.</span><span class="ja">私は猫が大好きだ。</span></p>
+    </article>
+    <article class="card">
+      <h3>第4文型 <code>S V O O</code></h3>
+      <p class="mean">S は O(人) に O(もの) を V する</p>
+      <p class="note">「与える」系の動詞：give, tell, teach, show, send など</p>
+      <p class="ex"><span class="en"><b class="S">My aunt</b> <b class="V">sent</b> <b class="O">me</b> <b class="O">a letter</b>.</span><span class="ja">おばが私に手紙を送ってくれた。</span></p>
+      <p class="ex"><span class="en"><b class="S">Ms. Ito</b> <b class="V">teaches</b> <b class="O">us</b> <b class="O">math</b>.</span><span class="ja">伊藤先生は私たちに数学を教える。</span></p>
+    </article>
+    <article class="card">
+      <h3>第5文型 <code>S V O C</code></h3>
+      <p class="mean">S は O を C に V する（<strong>O = C</strong>）</p>
+      <p class="note">代表的な動詞：make, find, call, name など</p>
+      <p class="ex"><span class="en"><b class="S">The news</b> <b class="V">made</b> <b class="O">us</b> <b class="C">sad</b>.</span><span class="ja">その知らせは私たちを悲しくさせた。</span></p>
+      <p class="ex"><span class="en"><b class="S">I</b> <b class="V">found</b> <b class="O">the book</b> <b class="C">easy</b>.</span><span class="ja">私はその本が簡単だとわかった。</span></p>
+    </article>
+    <article class="card point">
+      <h3>ポイント</h3>
+      <ul>
+        <li>第1文型 → <strong>自動詞</strong></li>
+        <li>第2文型 → be動詞などの<strong>連結動詞</strong>（become, look など）</li>
+        <li>第3〜5文型 → <strong>他動詞</strong></li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- ========== 品詞 ========== -->
+<section id="hinshi">
+  <h2><span class="num">02</span>英語の品詞</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>名詞 <span class="en-label">Noun</span></h3>
+      <ul>
+        <li>人やものの名前を表す</li>
+        <li>「〜ということ」「〜なこと」も表せる</li>
+        <li>文の中で <span class="tag S">S</span> <span class="tag O">O</span> <span class="tag C">C</span> になる</li>
+        <li>前置詞の後ろに置かれる</li>
+      </ul>
+      <p class="ex"><span class="en">The <mark>cup</mark> by the <mark>window</mark> is mine.</span><span class="ja">窓のそばのカップは私のものだ。</span></p>
+      <p class="ex"><span class="en">I like <mark>history</mark> and <mark>science</mark>.</span><span class="ja">私は歴史と理科が好きだ。</span></p>
+    </article>
+    <article class="card">
+      <h3>動詞 <span class="en-label">Verb</span></h3>
+      <ul>
+        <li><strong>be動詞</strong>：am, is, are, was, were</li>
+        <li><strong>一般動詞</strong>：be動詞以外のすべての動詞</li>
+        <li><strong>自動詞</strong>：目的語を取らない（第1文型）</li>
+        <li><strong>他動詞</strong>：目的語が必要（第3〜5文型）</li>
+      </ul>
+      <p class="ex"><span class="en">Ken <mark>is</mark> a student.（be動詞）</span><span class="ja">ケンは学生だ。</span></p>
+      <p class="ex"><span class="en">I <mark>walk</mark> every evening.（自動詞）</span><span class="ja">私は毎晩歩く。</span></p>
+      <p class="ex"><span class="en">She <mark>writes</mark> stories.（他動詞）</span><span class="ja">彼女は物語を書く。</span></p>
+    </article>
+    <article class="card">
+      <h3>形容詞 <span class="en-label">Adjective</span></h3>
+      <ul>
+        <li>名詞を説明する（どんな〜か）</li>
+        <li>補語 <span class="tag C">C</span> になる</li>
+        <li>短い形容詞は名詞の<strong>前</strong>：a <em>kind</em> person</li>
+        <li>長い説明は名詞の<strong>後ろ</strong>：the shop <em>that I visited</em></li>
+      </ul>
+      <p class="ex"><span class="en">She has a <mark>small</mark> dog.</span><span class="ja">彼女は小さな犬を飼っている。</span></p>
+      <p class="ex"><span class="en">The test was <mark>difficult</mark>.</span><span class="ja">テストは難しかった。</span></p>
+    </article>
+    <article class="card">
+      <h3>副詞 <span class="en-label">Adverb</span></h3>
+      <ul>
+        <li>動詞を説明する（どのように〜するか）</li>
+        <li>文型には含まれず、文型の後ろに置かれることが多い</li>
+        <li>いつ・どこで・なぜ・どのように を表す</li>
+      </ul>
+      <p class="ex"><span class="en">He runs <mark>fast</mark>.</span><span class="ja">彼は速く走る。</span></p>
+      <p class="ex"><span class="en">I read books <mark>in the library</mark> <mark>after school</mark>.</span><span class="ja">私は放課後に図書館で本を読む。</span></p>
+    </article>
+  </div>
+</section>
+
+<!-- ========== 名詞の働き ========== -->
+<section id="meishi">
+  <h2><span class="num">03</span>名詞の働きをする英文法</h2>
+  <p class="sec-lead">「〜すること」「〜ということ」のかたまりを作り、<span class="tag S">S</span> <span class="tag O">O</span> <span class="tag C">C</span> の位置に入ります。</p>
+  <div class="grid">
+    <article class="card">
+      <h3>to不定詞</h3>
+      <p class="mean">「〜すること」</p>
+      <p class="ex"><span class="en"><mark>To swim in the sea</mark> is fun.</span><span class="ja">海で泳ぐことは楽しい。</span><span class="role">→ 主語 S</span></p>
+      <p class="ex"><span class="en">I hope <mark>to visit Kyoto</mark>.</span><span class="ja">京都を訪れたい。</span><span class="role">→ 目的語 O</span></p>
+      <p class="ex"><span class="en">My dream is <mark>to become a nurse</mark>.</span><span class="ja">私の夢は看護師になることだ。</span><span class="role">→ 補語 C</span></p>
+    </article>
+    <article class="card">
+      <h3>動名詞</h3>
+      <p class="mean">動詞 + ing で「〜すること」</p>
+      <p class="note">to不定詞と違い、<strong>前置詞の後ろ</strong>にも置ける</p>
+      <p class="ex"><span class="en"><mark>Cooking</mark> is my hobby.</span><span class="ja">料理をすることが私の趣味だ。</span></p>
+      <p class="ex"><span class="en">I enjoy <mark>drawing pictures</mark>.</span><span class="ja">私は絵を描くことを楽しむ。</span></p>
+      <p class="ex"><span class="en">She is good at <mark>singing</mark>.</span><span class="ja">彼女は歌うことが得意だ。</span><span class="role">→ 前置詞 at の後ろ</span></p>
+    </article>
+    <article class="card">
+      <h3>接続詞 that / whether / if</h3>
+      <p class="mean">that + 文 =「〜ということ」<br>whether / if + 文 =「〜かどうか」</p>
+      <p class="ex"><span class="en">I know <mark>that he is honest</mark>.</span><span class="ja">彼が正直だということを知っている。</span></p>
+      <p class="ex"><span class="en"><mark>That she won the race</mark> surprised us.</span><span class="ja">彼女がレースに勝ったことは私たちを驚かせた。</span></p>
+      <p class="ex"><span class="en">I wonder <mark>whether it will rain</mark>.</span><span class="ja">雨が降るかどうか気になる。</span></p>
+    </article>
+    <article class="card">
+      <h3>疑問詞 + SV（間接疑問文）</h3>
+      <p class="mean">「〜なのか」という名詞のかたまり</p>
+      <p class="note">疑問詞：what, who, when, where, why, how</p>
+      <p class="ex"><span class="en">I don't know <mark>when the bus comes</mark>.</span><span class="ja">バスがいつ来るのかわからない。</span></p>
+      <p class="ex"><span class="en">Tell me <mark>what you want</mark>.</span><span class="ja">何が欲しいのか教えて。</span></p>
+      <div class="convert">
+        <span>Where does she live?</span><span class="arrow">→</span><span>I don't know <mark>where she lives</mark>.</span>
+      </div>
+      <p class="note">作り方：「疑問詞 + S + V」の<strong>普通の語順</strong>にする</p>
+    </article>
+  </div>
+</section>
+
+<!-- ========== 副詞の働き ========== -->
+<section id="fukushi">
+  <h2><span class="num">04</span>副詞の働きをする英文法</h2>
+  <p class="sec-lead">動詞（や形容詞）に「いつ・どこで・なぜ・どのように」を付け加えます。文型の外側 <span class="tag M">M</span> に置かれます。</p>
+  <div class="grid">
+    <article class="card">
+      <h3>前置詞 + 名詞</h3>
+      <p class="mean">主に「いつ」「どこで」「なぜ」「どのように」</p>
+      <p class="ex"><span class="en">I practice the piano <mark>at home</mark>.</span><span class="ja">家でピアノを練習する。</span><span class="role">→ 場所</span></p>
+      <p class="ex"><span class="en">I practice the piano <mark>at 7</mark>.</span><span class="ja">7時にピアノを練習する。</span><span class="role">→ 時間</span></p>
+      <p class="ex"><span class="en">I practice the piano <mark>for the concert</mark>.</span><span class="ja">発表会のためにピアノを練習する。</span><span class="role">→ 目的・理由</span></p>
+      <p class="ex"><span class="en">I practice the piano <mark>with my sister</mark>.</span><span class="ja">妹と一緒にピアノを練習する。</span><span class="role">→ 方法・相手</span></p>
+      <p class="note">いくつも重ねられる：I practice the piano <em>at home at 7 for the concert</em>.</p>
+    </article>
+    <article class="card">
+      <h3>to不定詞</h3>
+      <p class="mean">「〜するために」（動詞を説明）</p>
+      <p class="ex"><span class="en">I save money <mark>to buy a bike</mark>.</span><span class="ja">自転車を買うためにお金をためている。</span></p>
+      <p class="ex"><span class="en">He got up early <mark>to catch the first train</mark>.</span><span class="ja">始発に乗るために彼は早起きした。</span></p>
+      <p class="mean">形容詞を説明することもある（理由・原因）</p>
+      <p class="ex"><span class="en">I'm glad <mark>to see you</mark>.</span><span class="ja">あなたに会えてうれしい。</span><span class="role">→ なぜ glad なのか</span></p>
+    </article>
+    <article class="card">
+      <h3>接続詞 + SV</h3>
+      <table class="mini">
+        <tr><td>when</td><td>〜するときに</td></tr>
+        <tr><td>if</td><td>もし〜なら</td></tr>
+        <tr><td>because</td><td>〜なので</td></tr>
+        <tr><td>although</td><td>〜だけれども</td></tr>
+      </table>
+      <p class="formula">① <mark>When s v</mark>, S V.　② S V <mark>when s v</mark>.</p>
+      <p class="ex"><span class="en"><mark>When I got home</mark>, my brother was sleeping.</span><span class="ja">私が帰宅したとき、弟は寝ていた。</span></p>
+      <p class="ex"><span class="en">I stayed home <mark>because it was cold</mark>.</span><span class="ja">寒かったので家にいた。</span></p>
+      <p class="ex"><span class="en"><mark>Although he was tired</mark>, he finished his work.</span><span class="ja">疲れていたけれど、彼は仕事を終えた。</span></p>
+    </article>
+  </div>
+</section>
+
+<!-- ========== 形容詞の働き ========== -->
+<section id="keiyoshi">
+  <h2><span class="num">05</span>形容詞の働きをする英文法</h2>
+  <p class="sec-lead">名詞を後ろから説明する「長い形容詞」のかたまりです。</p>
+  <div class="grid">
+    <article class="card">
+      <h3>to不定詞</h3>
+      <p class="mean">「〜するための」「〜すべき」</p>
+      <p class="ex"><span class="en">I have some letters <mark>to write</mark>.</span><span class="ja">書くべき手紙が何通かある。</span></p>
+      <p class="ex"><span class="en">Would you like something <mark>to drink</mark>?</span><span class="ja">何か飲み物はいかがですか。</span></p>
+      <p class="ex"><span class="en">I need a chair <mark>to sit on</mark>.</span><span class="ja">座るためのいすが必要だ。</span></p>
+    </article>
+    <article class="card">
+      <h3>分詞</h3>
+      <p class="mean">現在分詞（〜ing）：「〜している」<br>過去分詞（〜ed など）：「〜された」</p>
+      <p class="ex"><span class="en">Look at the <mark>sleeping</mark> cat.</span><span class="ja">眠っている猫を見て。</span></p>
+      <p class="ex"><span class="en">The girl <mark>reading a book</mark> is Yui.</span><span class="ja">本を読んでいる女の子はユイだ。</span></p>
+      <p class="ex"><span class="en">I picked up the <mark>fallen</mark> leaves.</span><span class="ja">私は落ち葉を拾った。</span></p>
+      <p class="ex"><span class="en">This is a photo <mark>taken in Hokkaido</mark>.</span><span class="ja">これは北海道で撮られた写真だ。</span></p>
+    </article>
+    <article class="card">
+      <h3>前置詞 + 名詞</h3>
+      <p class="mean">名詞を説明して「〜にある」「〜の」</p>
+      <p class="ex"><span class="en">The clock <mark>on the wall</mark> is slow.</span><span class="ja">壁にかかっている時計は遅れている。</span></p>
+      <p class="ex"><span class="en">Students <mark>in this class</mark> are friendly.</span><span class="ja">このクラスの生徒は親しみやすい。</span></p>
+      <p class="ex"><span class="en">The house <mark>with a big garden</mark> is my uncle's.</span><span class="ja">大きな庭のある家はおじの家だ。</span></p>
+    </article>
+    <article class="card">
+      <h3>関係代名詞 + SV</h3>
+      <p class="mean">who / that：「〜する人」<br>which / that：「〜するもの」</p>
+      <p class="ex"><span class="en">The boy <mark>who lives next door</mark> is kind.</span><span class="ja">隣に住んでいる男の子は親切だ。</span></p>
+      <p class="ex"><span class="en">This is the bag <mark>which I bought last week</mark>.</span><span class="ja">これは先週私が買ったかばんだ。</span></p>
+      <p class="note">詳しくは <a href="#kankei">関係代名詞の詳細</a> へ</p>
+    </article>
+  </div>
+</section>
+
+<!-- ========== 動詞 ========== -->
+<section id="doushi">
+  <h2><span class="num">06</span>動詞の詳細</h2>
+  <div class="grid two">
+    <article class="card">
+      <h3>be動詞</h3>
+      <table class="mini">
+        <tr><td>現在形</td><td>am / is / are</td></tr>
+        <tr><td>過去形</td><td>was / were</td></tr>
+        <tr><td>意味</td><td>「ある・いる・〜である」</td></tr>
+      </table>
+      <p class="ex"><span class="en">I <mark>am</mark> hungry. / They <mark>were</mark> in the gym.</span><span class="ja">私はおなかがすいている。／彼らは体育館にいた。</span></p>
+      <p class="rule"><strong>否定文</strong>：be動詞の後ろに not</p>
+      <p class="ex"><span class="en">He <mark>is not</mark> busy.</span><span class="ja">彼は忙しくない。</span></p>
+      <p class="rule"><strong>疑問文</strong>：be動詞を主語の前に</p>
+      <p class="ex"><span class="en"><mark>Is</mark> she your sister?</span><span class="ja">彼女はあなたのお姉さんですか。</span></p>
+    </article>
+    <article class="card">
+      <h3>一般動詞</h3>
+      <p class="rule"><strong>三人称単数・現在</strong>：動詞に s を付ける</p>
+      <p class="ex"><span class="en">I play the guitar. → He <mark>plays</mark> the guitar.</span><span class="ja">主語が I・you 以外の単数なら s が付く</span></p>
+      <p class="rule"><strong>否定文</strong>：do not / does not + 動詞の原形</p>
+      <p class="ex"><span class="en">She <mark>does not</mark> eat meat.</span><span class="ja">彼女は肉を食べない。</span></p>
+      <p class="rule"><strong>疑問文</strong>：Do / Does + 主語 + 動詞の原形</p>
+      <p class="ex"><span class="en"><mark>Does</mark> he like soccer?</span><span class="ja">彼はサッカーが好きですか。</span></p>
+      <p class="rule"><strong>過去形</strong>：基本は動詞 + ed</p>
+      <p class="ex"><span class="en">We <mark>cleaned</mark> the room yesterday.</span><span class="ja">私たちは昨日部屋を掃除した。</span></p>
+    </article>
+    <article class="card">
+      <h3>自動詞</h3>
+      <p class="mean">後ろに目的語 <span class="tag O">O</span> を<strong>取らない</strong>動詞</p>
+      <ul>
+        <li>arrive（着く）… 「何を」着く とは言わない</li>
+        <li>laugh（笑う）… 「何を」笑う とは言わない（at が必要）</li>
+      </ul>
+      <p class="ex"><span class="en">The train <mark>arrived</mark> at noon.</span><span class="ja">電車は正午に着いた。</span></p>
+      <p class="note">主に第1文型 SV で使う</p>
+    </article>
+    <article class="card">
+      <h3>他動詞</h3>
+      <p class="mean">後ろに目的語 <span class="tag O">O</span> が<strong>必ず来る</strong>動詞</p>
+      <ul>
+        <li>make（作る）… 「何を」作る</li>
+        <li>visit（訪れる）… 「どこを」訪れる</li>
+      </ul>
+      <p class="ex"><span class="en">I <mark>made</mark> a cake. <small>(SVO)</small></span><span class="ja">私はケーキを作った。</span></p>
+      <p class="ex"><span class="en">He <mark>showed</mark> me his room. <small>(SVOO)</small></span><span class="ja">彼は私に部屋を見せてくれた。</span></p>
+      <p class="ex"><span class="en">We <mark>named</mark> the dog Pochi. <small>(SVOC)</small></span><span class="ja">私たちはその犬をポチと名付けた。</span></p>
+    </article>
+    <article class="card point wide">
+      <h3>見分け方</h3>
+      <ol>
+        <li>「何を？」と聞き返せる動詞は<strong>他動詞</strong></li>
+        <li>単語帳で「〜を」と訳が書かれている動詞は<strong>他動詞</strong></li>
+      </ol>
+    </article>
+  </div>
+</section>
+
+<!-- ========== 分詞 ========== -->
+<section id="bunshi">
+  <h2><span class="num">07</span>分詞の詳細</h2>
+  <div class="grid two">
+    <article class="card">
+      <h3>現在分詞</h3>
+      <p class="mean">形：動詞 + ing　意味：「〜している」（能動）</p>
+      <p class="ex"><span class="en">The <mark>crying</mark> child is my cousin.</span><span class="ja">泣いている子は私のいとこだ。</span></p>
+      <p class="ex"><span class="en">The man <mark>waiting at the gate</mark> is our coach.</span><span class="ja">門のところで待っている男性は私たちのコーチだ。</span></p>
+      <div class="tip">
+        <p><strong>置く位置</strong></p>
+        <p>① 1語だけ → 名詞の<strong>前</strong>：<em>crying child</em></p>
+        <p>② 2語以上 → 名詞の<strong>後ろ</strong>：<em>man waiting at the gate</em></p>
+      </div>
+    </article>
+    <article class="card">
+      <h3>過去分詞</h3>
+      <p class="mean">形：規則動詞は + ed、不規則動詞は形が変わる<br>意味：「〜された」（受動）</p>
+      <p class="ex"><span class="en">Be careful of the <mark>broken</mark> glass.</span><span class="ja">割れたガラスに気をつけて。</span></p>
+      <p class="ex"><span class="en">I read a novel <mark>written by a high school student</mark>.</span><span class="ja">高校生によって書かれた小説を読んだ。</span></p>
+      <div class="tip">
+        <p><strong>不規則動詞の例</strong></p>
+        <p>write → written ／ break → broken ／ see → seen ／ take → taken</p>
+      </div>
+    </article>
+    <article class="card">
+      <h3>現在分詞と進行形</h3>
+      <p class="formula">進行形 = <mark>be動詞 + 現在分詞</mark></p>
+      <p class="ex"><span class="en">I <mark>am doing</mark> my homework.</span><span class="ja">私は宿題をしている。</span><span class="role">現在進行形</span></p>
+      <p class="ex"><span class="en">It <mark>was raining</mark> then.</span><span class="ja">そのとき雨が降っていた。</span><span class="role">過去進行形</span></p>
+    </article>
+    <article class="card">
+      <h3>過去分詞と受動態</h3>
+      <p class="formula">受動態 = <mark>be動詞 + 過去分詞</mark></p>
+      <p class="ex"><span class="en">This temple <mark>was built</mark> 500 years ago.</span><span class="ja">この寺は500年前に建てられた。</span></p>
+      <p class="ex"><span class="en">Spanish <mark>is spoken</mark> in Mexico.</span><span class="ja">メキシコではスペイン語が話されている。</span></p>
+    </article>
+    <article class="card wide">
+      <h3>過去分詞と現在完了形</h3>
+      <p class="formula">現在完了形 = <mark>have / has + 過去分詞</mark></p>
+      <div class="grid three inner">
+        <div class="sub"><span class="pill">① 経験</span><p class="ex"><span class="en">I <mark>have climbed</mark> Mt. Fuji twice.</span><span class="ja">富士山に2回登ったことがある。</span></p></div>
+        <div class="sub"><span class="pill">② 継続</span><p class="ex"><span class="en">She <mark>has studied</mark> French for two years.</span><span class="ja">彼女は2年間フランス語を勉強している。</span></p></div>
+        <div class="sub"><span class="pill">③ 完了</span><p class="ex"><span class="en">I <mark>have</mark> just <mark>eaten</mark> lunch.</span><span class="ja">ちょうど昼食を食べたところだ。</span></p></div>
+      </div>
+    </article>
+    <article class="card wide point">
+      <h3>まとめ：分詞の区別</h3>
+      <table class="compare">
+        <thead><tr><th></th><th>現在分詞（-ing）</th><th>過去分詞（-ed など）</th></tr></thead>
+        <tbody>
+          <tr><th>意味</th><td>「〜している」能動</td><td>「〜された」受動</td></tr>
+          <tr><th>形容詞として</th><td>an <em>exciting</em> game（わくわくさせる試合）</td><td><em>excited</em> fans（わくわくしたファン）</td></tr>
+          <tr><th>使われる文法</th><td>進行形：I am <em>reading</em>.</td><td>受動態・現在完了形：It is <em>read</em>. / I have <em>read</em> it.</td></tr>
+        </tbody>
+      </table>
+    </article>
+  </div>
+</section>
+
+<!-- ========== 関係代名詞 ========== -->
+<section id="kankei">
+  <h2><span class="num">08</span>関係代名詞の詳細</h2>
+  <p class="sec-lead">関係代名詞は<strong>形容詞のように名詞を説明</strong>するかたまりを作ります。</p>
+  <div class="grid two">
+    <article class="card">
+      <h3>人を説明する</h3>
+      <p class="formula">人 + <mark>who / that</mark> + 文</p>
+      <p class="rule"><strong>主格</strong>（〜する人）：who / that</p>
+      <p class="ex"><span class="en">The woman <mark>who works at the bakery</mark> is my mother.</span><span class="ja">パン屋で働いている女性は私の母だ。</span></p>
+      <p class="ex"><span class="en">Students <mark>who read a lot</mark> know many words.</span><span class="ja">たくさん読書する生徒は多くの単語を知っている。</span></p>
+      <p class="rule"><strong>目的格</strong>（〜が…する人）：whom / who / that</p>
+      <p class="ex"><span class="en">The singer <mark>whom I like</mark> is coming to Japan.</span><span class="ja">私が好きな歌手が来日する。</span></p>
+      <p class="ex"><span class="en">He is the boy <mark>that I saw at the station</mark>.</span><span class="ja">彼は私が駅で見かけた少年だ。</span></p>
+    </article>
+    <article class="card">
+      <h3>ものを説明する</h3>
+      <p class="formula">もの + <mark>which / that</mark> + 文</p>
+      <p class="rule"><strong>主格</strong>（〜するもの）：which / that</p>
+      <p class="ex"><span class="en">The bus <mark>which goes to the airport</mark> is late.</span><span class="ja">空港へ行くバスが遅れている。</span></p>
+      <p class="ex"><span class="en">I want a phone <mark>that takes good pictures</mark>.</span><span class="ja">きれいな写真が撮れる携帯が欲しい。</span></p>
+      <p class="rule"><strong>目的格</strong>（〜が…するもの）：which / that</p>
+      <p class="ex"><span class="en">The song <mark>which we sang</mark> was beautiful.</span><span class="ja">私たちが歌った歌は美しかった。</span></p>
+      <p class="ex"><span class="en">This is the park <mark>that I often visit</mark>.</span><span class="ja">これは私がよく訪れる公園だ。</span></p>
+    </article>
+    <article class="card">
+      <h3>制限用法と非制限用法</h3>
+      <p class="rule"><strong>制限用法</strong>：どの人・ものかを特定する</p>
+      <p class="ex"><span class="en">The pen <mark>that I lost yesterday</mark> was found.</span><span class="ja">昨日なくしたペンが見つかった。</span><span class="role">→「どのペン？」を特定</span></p>
+      <p class="rule"><strong>非制限用法</strong>：すでに特定済みのものに補足する（カンマで区切る）</p>
+      <p class="ex"><span class="en">My grandfather<mark>, who lives in Osaka,</mark> is 80.</span><span class="ja">私の祖父は大阪に住んでいて、80歳だ。</span></p>
+    </article>
+    <article class="card">
+      <h3>関係代名詞の省略</h3>
+      <p class="mean"><strong>目的格</strong>の関係代名詞は省略できる</p>
+      <div class="convert">
+        <span>The movie <s>that</s> I saw last night was funny.</span><span class="arrow">→</span><span>The movie <mark>I saw last night</mark> was funny.</span>
+      </div>
+      <p class="ja-plain">昨夜見た映画はおもしろかった。</p>
+    </article>
+    <article class="card wide">
+      <h3>長い説明を関係代名詞で表す</h3>
+      <div class="build">
+        <p class="step"><span class="pill">日本語</span>「毎朝公園で犬の散歩をしている人」</p>
+        <p class="step"><span class="pill">英語</span>people <mark>who walk their dogs in the park every morning</mark></p>
+        <p class="ex"><span class="en">I often say hello to people <mark>who walk their dogs in the park every morning</mark>.</span><span class="ja">私は毎朝公園で犬の散歩をしている人たちによくあいさつする。</span></p>
+      </div>
+      <div class="build">
+        <p class="step"><span class="pill">日本語</span>「約束の時間に一度も来たことがない友達」</p>
+        <p class="step"><span class="pill">英語</span>a friend <mark>who has never come on time</mark></p>
+        <p class="ex"><span class="en">I have a friend <mark>who has never come on time</mark>.</span><span class="ja">私には時間どおりに来たことが一度もない友達がいる。</span></p>
+      </div>
+    </article>
+    <article class="card wide point">
+      <h3>関係代名詞のまとめ</h3>
+      <table class="compare">
+        <thead><tr><th></th><th>主格（〜する）</th><th>目的格（〜が…する）</th></tr></thead>
+        <tbody>
+          <tr><th>人</th><td>who / that</td><td>whom / who / that（省略可）</td></tr>
+          <tr><th>もの</th><td>which / that</td><td>which / that（省略可）</td></tr>
+        </tbody>
+      </table>
+    </article>
+  </div>
+</section>
+
+<!-- ========== 総まとめ ========== -->
+<section id="matome">
+  <h2><span class="num">09</span>英文法事項 総まとめ</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>文型</h3>
+      <table class="mini">
+        <tr><td>SV</td><td>Birds fly.</td></tr>
+        <tr><td>SVC</td><td>He looks happy.</td></tr>
+        <tr><td>SVO</td><td>I read comics.</td></tr>
+        <tr><td>SVOO</td><td>She gave me a pen.</td></tr>
+        <tr><td>SVOC</td><td>We call him Ken.</td></tr>
+      </table>
+    </article>
+    <article class="card">
+      <h3>品詞</h3>
+      <table class="mini">
+        <tr><td>名詞</td><td>人・ものの名前。S・O・C になる</td></tr>
+        <tr><td>動詞</td><td>動作・状態。文の中心</td></tr>
+        <tr><td>形容詞</td><td>名詞を説明。C になる</td></tr>
+        <tr><td>副詞</td><td>動詞・形容詞・他の副詞を説明</td></tr>
+        <tr><td>前置詞</td><td>名詞と組んでかたまりを作る</td></tr>
+        <tr><td>接続詞</td><td>語・句・節（文）をつなぐ</td></tr>
+      </table>
+    </article>
+    <article class="card">
+      <h3>文型と品詞の関係</h3>
+      <div class="roles compact">
+        <div><span class="tag S">S</span>= 名詞</div>
+        <div><span class="tag V">V</span>= 動詞</div>
+        <div><span class="tag O">O</span>= 名詞</div>
+        <div><span class="tag C">C</span>= 名詞 or 形容詞</div>
+      </div>
+    </article>
+    <article class="card">
+      <h3>名詞の働き</h3>
+      <table class="mini">
+        <tr><td>to不定詞</td><td>〜すること</td></tr>
+        <tr><td>動名詞</td><td>〜すること（前置詞の後ろもOK）</td></tr>
+        <tr><td>that / if / whether</td><td>〜ということ／〜かどうか</td></tr>
+        <tr><td>疑問詞 + SV</td><td>〜なのか（間接疑問文）</td></tr>
+      </table>
+    </article>
+    <article class="card">
+      <h3>副詞の働き</h3>
+      <table class="mini">
+        <tr><td>前置詞 + 名詞</td><td>場所・時間・理由・方法</td></tr>
+        <tr><td>to不定詞</td><td>〜するために</td></tr>
+        <tr><td>接続詞 + SV</td><td>when, if, because, although など</td></tr>
+      </table>
+    </article>
+    <article class="card">
+      <h3>形容詞の働き</h3>
+      <table class="mini">
+        <tr><td>to不定詞</td><td>〜するための・すべき</td></tr>
+        <tr><td>前置詞 + 名詞</td><td>〜にある・〜の</td></tr>
+        <tr><td>現在分詞</td><td>〜している（能動）</td></tr>
+        <tr><td>過去分詞</td><td>〜された（受動）</td></tr>
+        <tr><td>関係代名詞 + SV</td><td>〜する人・もの</td></tr>
+      </table>
+    </article>
+    <article class="card wide point">
+      <h3>組み合わせて使う</h3>
+      <p class="ex"><span class="en">I believe <mark>that reading books</mark> is useful.</span><span class="ja">本を読むことは役に立つと思う。</span><span class="role">that節（名詞）の中に動名詞</span></p>
+      <p class="ex"><span class="en">The cake <mark>which my sister baked</mark> was sweet.</span><span class="ja">姉が焼いたケーキは甘かった。</span><span class="role">関係代名詞（形容詞の働き）</span></p>
+      <p class="ex"><span class="en">I study hard <mark>to pass the exam</mark>.</span><span class="ja">試験に合格するために一生懸命勉強する。</span><span class="role">to不定詞（副詞の働き）</span></p>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap foot">
+  <p>英文法まとめノート</p>
+  <a href="#top" class="totop">▲ ページの先頭へ</a>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
